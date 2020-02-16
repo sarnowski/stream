@@ -1,0 +1,3 @@
+# genkernel initramfs
+
+genkernel --luks --lvm --no-ramdisk-modules --install initramfs

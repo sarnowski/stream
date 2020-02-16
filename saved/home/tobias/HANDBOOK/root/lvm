@@ -1,0 +1,16 @@
+LVM ops
+
+
+Reduce:
+
+# umount /dev/mapper/vg0-XXX
+# e2fsck -f /dev/mapper/vg0-XXX
+# resize2fs /dev/mapper/vg0-XXX 150M
+# lvreduce -L150M /dev/mapper/vg0-XXX
+
+Grow:
+
+# umount /dev/mapper/vg0-XXX
+# e2fsck -f /dev/mapper/vg0-XXX
+# lvextend -L500M /dev/mapper/vg0-XXX
+# resize2fs /dev/mapper/vg0-XXX 500M

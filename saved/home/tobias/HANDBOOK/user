@@ -1,0 +1,29 @@
+# i3
+
+M+enter        - new terminal
+M+q            - lock screen
+M+d            - menu
+M+cursor       - focus
+M+shift+cursor - move window within workspace
+M+num          - workspace chooser
+M+h            - split this window horizontally
+M+v            - split this window vertically
+M+r            - go into resize mode for windows, enter to leave
+M+space        - toggle floating vs stacked
+M+f            - toggle fullscreen
+
+# Sound
+
+pavucontrol    - mixer settings
+
+# Bluetooth
+
+/etc/init.d/bluetooth start
+blueman-manager
+
+# Terminal
+
+fn+shift+insert                           - paste from clipboard
+
+echo "foo" | xclip -selection clipboard   - copy text into clipboard for UIs to access via ctrl+v
+

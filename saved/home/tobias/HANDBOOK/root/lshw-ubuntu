@@ -1,0 +1,330 @@
+ubuntu
+    description: Notebook
+    product: HP Stream Laptop 11-ak0xxx (6AX01EA#ABD)
+    vendor: HP
+    version: Chassis Version
+    serial: 5CD95136ZH
+    width: 64 bits
+    capabilities: smbios-3.0 dmi-3.0 smp vsyscall32
+    configuration: boot=normal chassis=notebook family=103C_5335KV HP Stream sku=6AX01EA#ABD uuid=35434439-3531-3336-5A48-483631354435
+  *-core
+       description: Motherboard
+       product: 85B6
+       vendor: HP
+       physical id: 0
+       version: 24.13
+       serial: PHVAL028JD503B
+       slot: Type2 - Board Chassis Location
+     *-firmware
+          description: BIOS
+          vendor: Insyde
+          physical id: 0
+          version: F.12
+          date: 08/29/2019
+          size: 64KiB
+          capacity: 3008KiB
+          capabilities: pci upgrade shadowing cdboot bootselect edd int9keyboard int14serial int17printer int10video acpi usb zipboot biosbootspecification netboot
+     *-cpu
+          description: CPU
+          product: Intel(R) Celeron(R) N4000 CPU @ 1.10GHz
+          vendor: Intel Corp.
+          physical id: 4
+          bus info: cpu@0
+          version: Intel(R) Celeron(R) N4000 CPU @ 1.10GHz
+          serial: To Be Filled By O.E.M.
+          slot: U3E1
+          size: 2571MHz
+          capacity: 2600MHz
+          width: 64 bits
+          clock: 100MHz
+          capabilities: x86-64 fpu fpu_exception wp vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg cx16 xtpr pdcm sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave rdrand lahf_lm 3dnowprefetch cpuid_fault cat_l2 pti cdp_l2 ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust smep erms mpx rdt_a rdseed smap clflushopt intel_pt sha_ni xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts umip rdpid md_clear arch_capabilities cpufreq
+          configuration: cores=2 enabledcores=2 threads=2
+        *-cache:0
+             description: L1 cache
+             physical id: 6
+             slot: L1 Cache
+             size: 32KiB
+             capacity: 32KiB
+             capabilities: synchronous internal write-back instruction
+             configuration: level=1
+        *-cache:1
+             description: L2 cache
+             physical id: 7
+             slot: L2 Cache
+             size: 4MiB
+             capacity: 4MiB
+             capabilities: synchronous internal write-back unified
+             configuration: level=2
+     *-cache
+          description: L1 cache
+          physical id: 5
+          slot: L1 Cache
+          size: 24KiB
+          capacity: 24KiB
+          capabilities: synchronous internal write-back data
+          configuration: level=1
+     *-memory
+          description: System Memory
+          physical id: 1a
+          slot: System board or motherboard
+          size: 4GiB
+        *-bank
+             description: Row of chips DDR4 Synchronous 2400 MHz (0.4 ns)
+             product: H5AN8G6NCJR-VKC
+             vendor: SK Hynix
+             physical id: 0
+             serial: Not Available
+             slot: Top - on board
+             size: 4GiB
+             width: 8 bits
+             clock: 2400MHz (0.4ns)
+     *-pci
+          description: Host bridge
+          product: Intel Corporation
+          vendor: Intel Corporation
+          physical id: 100
+          bus info: pci@0000:00:00.0
+          version: 03
+          width: 32 bits
+          clock: 33MHz
+        *-generic:0
+             description: Signal processing controller
+             product: Intel Corporation
+             vendor: Intel Corporation
+             physical id: 0.1
+             bus info: pci@0000:00:00.1
+             version: 03
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pm bus_master cap_list
+             configuration: driver=proc_thermal latency=0
+             resources: irq:24 memory:80000000-80007fff
+        *-generic:1 UNCLAIMED
+             description: System peripheral
+             product: Intel Corporation
+             vendor: Intel Corporation
+             physical id: 0.3
+             bus info: pci@0000:00:00.3
+             version: 03
+             width: 64 bits
+             clock: 33MHz
+             capabilities: msi pm bus_master cap_list
+             configuration: latency=0
+             resources: memory:a1214000-a1214fff
+        *-display
+             description: VGA compatible controller
+             product: Intel Corporation
+             vendor: Intel Corporation
+             physical id: 2
+             bus info: pci@0000:00:02.0
+             version: 03
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pciexpress msi pm vga_controller bus_master cap_list rom
+             configuration: driver=i915 latency=0
+             resources: irq:122 memory:a0000000-a0ffffff memory:90000000-9fffffff ioport:2000(size=64) memory:c0000-dffff
+        *-multimedia
+             description: Audio device
+             product: Intel Corporation
+             vendor: Intel Corporation
+             physical id: e
+             bus info: pci@0000:00:0e.0
+             version: 03
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pm msi pciexpress bus_master cap_list
+             configuration: driver=snd_hda_intel latency=0
+             resources: irq:124 memory:a1210000-a1213fff memory:a1000000-a10fffff
+        *-communication
+             description: Communication controller
+             product: Intel Corporation
+             vendor: Intel Corporation
+             physical id: f
+             bus info: pci@0000:00:0f.0
+             version: 03
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pm msi bus_master cap_list
+             configuration: driver=mei_me latency=0
+             resources: irq:123 memory:a1215000-a1215fff
+        *-pci
+             description: PCI bridge
+             product: Intel Corporation
+             vendor: Intel Corporation
+             physical id: 13
+             bus info: pci@0000:00:13.0
+             version: f3
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pciexpress msi pm normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:120 ioport:1000(size=4096) memory:a1100000-a11fffff
+           *-network UNCLAIMED
+                description: Network controller
+                product: RTL8821CE 802.11ac PCIe Wireless Network Adapter
+                vendor: Realtek Semiconductor Co., Ltd.
+                physical id: 0
+                bus info: pci@0000:01:00.0
+                version: 00
+                width: 64 bits
+                clock: 33MHz
+                capabilities: pm msi pciexpress cap_list
+                configuration: latency=0
+                resources: ioport:1000(size=256) memory:a1100000-a110ffff
+        *-usb
+             description: USB controller
+             product: Intel Corporation
+             vendor: Intel Corporation
+             physical id: 15
+             bus info: pci@0000:00:15.0
+             version: 03
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pm msi xhci bus_master cap_list
+             configuration: driver=xhci_hcd latency=0
+             resources: irq:121 memory:a1200000-a120ffff
+           *-usbhost:0
+                product: xHCI Host Controller
+                vendor: Linux 5.0.0-23-generic xhci-hcd
+                physical id: 0
+                bus info: usb@1
+                logical name: usb1
+                version: 5.00
+                capabilities: usb-2.00
+                configuration: driver=hub slots=9 speed=480Mbit/s
+              *-usb:0
+                   description: Bluetooth wireless interface
+                   product: Bluetooth Radio
+                   vendor: Realtek
+                   physical id: 5
+                   bus info: usb@1:5
+                   version: 1.10
+                   serial: 00e04c000001
+                   capabilities: bluetooth usb-1.10
+                   configuration: driver=btusb maxpower=500mA speed=12Mbit/s
+              *-usb:1
+                   description: Video
+                   product: HP Webcam
+                   vendor: Generic
+                   physical id: 6
+                   bus info: usb@1:6
+                   version: 0.09
+                   serial: 0x0001
+                   capabilities: usb-2.00
+                   configuration: driver=uvcvideo maxpower=500mA speed=480Mbit/s
+           *-usbhost:1
+                product: xHCI Host Controller
+                vendor: Linux 5.0.0-23-generic xhci-hcd
+                physical id: 1
+                bus info: usb@2
+                logical name: usb2
+                version: 5.00
+                capabilities: usb-3.00
+                configuration: driver=hub slots=7 speed=5000Mbit/s
+              *-usb
+                   description: Mass storage device
+                   product: DataTraveler 3.0
+                   vendor: Kingston
+                   physical id: 1
+                   bus info: usb@2:1
+                   logical name: scsi0
+                   version: 0.01
+                   serial: D067E516450CF0A0E6169782
+                   capabilities: usb-3.00 scsi emulated scsi-host
+                   configuration: driver=usb-storage maxpower=296mA speed=5000Mbit/s
+                 *-disk
+                      description: SCSI Disk
+                      product: DataTraveler 3.0
+                      vendor: Kingston
+                      physical id: 0.0.0
+                      bus info: scsi@0:0.0.0
+                      logical name: /dev/sda
+                      logical name: /cdrom
+                      serial: 0
+                      size: 7377MiB (7736MB)
+                      capabilities: removable
+                      configuration: ansiversion=6 logicalsectorsize=512 mount.fstype=iso9660 mount.options=ro,noatime,nojoliet,check=s,map=n,blocksize=2048 sectorsize=512 state=mounted
+                    *-medium
+                         physical id: 0
+                         logical name: /dev/sda
+                         logical name: /cdrom
+                         size: 7377MiB (7736MB)
+                         capabilities: partitioned partitioned:dos
+                         configuration: mount.fstype=iso9660 mount.options=ro,noatime,nojoliet,check=s,map=n,blocksize=2048 signature=5092863d state=mounted
+                       *-volume
+                            description: Windows FAT volume
+                            vendor: mkfs.fat
+                            physical id: 2
+                            logical name: /dev/sda2
+                            version: FAT12
+                            serial: 833c-cdb0
+                            size: 15EiB
+                            capabilities: primary boot fat initialized
+                            configuration: FATs=2 filesystem=fat
+        *-generic:2
+             description: Signal processing controller
+             product: Intel Corporation
+             vendor: Intel Corporation
+             physical id: 17
+             bus info: pci@0000:00:17.0
+             version: 03
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pm bus_master cap_list
+             configuration: driver=intel-lpss latency=0
+             resources: irq:31 memory:a1216000-a1216fff memory:a1217000-a1217fff
+        *-generic:3
+             description: Signal processing controller
+             product: Intel Corporation
+             vendor: Intel Corporation
+             physical id: 17.1
+             bus info: pci@0000:00:17.1
+             version: 03
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pm bus_master cap_list
+             configuration: driver=intel-lpss latency=0
+             resources: irq:32 memory:a1218000-a1218fff memory:a1219000-a1219fff
+        *-generic:4
+             description: SD Host controller
+             product: Intel Corporation
+             vendor: Intel Corporation
+             physical id: 1c
+             bus info: pci@0000:00:1c.0
+             version: 03
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pm bus_master cap_list
+             configuration: driver=sdhci-pci latency=0
+             resources: irq:39 memory:a121a000-a121afff memory:a121b000-a121bfff
+        *-isa
+             description: ISA bridge
+             product: Intel Corporation
+             vendor: Intel Corporation
+             physical id: 1f
+             bus info: pci@0000:00:1f.0
+             version: 03
+             width: 32 bits
+             clock: 33MHz
+             capabilities: isa bus_master
+             configuration: latency=0
+        *-serial UNCLAIMED
+             description: SMBus
+             product: Intel Corporation
+             vendor: Intel Corporation
+             physical id: 1f.1
+             bus info: pci@0000:00:1f.1
+             version: 03
+             width: 64 bits
+             clock: 33MHz
+             configuration: latency=0
+             resources: memory:a121c000-a121c0ff ioport:2040(size=32)
+  *-battery
+       product: PO02037
+       vendor: 333-1C-3D-A
+       physical id: 1
+       version: ManufDate
+       serial: DummySerialNumber
+       slot: Primary
+       capacity: 37696mWh
+       configuration: voltage=7.6V

@@ -1,0 +1,44 @@
+00:00.0 Host bridge: Intel Corporation Device 31f0 (rev 03)
+	Subsystem: Hewlett-Packard Company Device 85b6
+00:00.1 Signal processing controller: Intel Corporation Device 318c (rev 03)
+	Subsystem: Hewlett-Packard Company Device 85b6
+	Kernel driver in use: proc_thermal
+	Kernel modules: processor_thermal_device
+00:00.3 System peripheral: Intel Corporation Device 3190 (rev 03)
+	Subsystem: Hewlett-Packard Company Device 85b6
+00:02.0 VGA compatible controller: Intel Corporation Device 3185 (rev 03)
+	Subsystem: Hewlett-Packard Company Device 85b6
+	Kernel driver in use: i915
+	Kernel modules: i915
+00:0e.0 Audio device: Intel Corporation Device 3198 (rev 03)
+	Subsystem: Hewlett-Packard Company Device 85b6
+	Kernel driver in use: snd_hda_intel
+	Kernel modules: snd_hda_intel, snd_soc_skl
+00:0f.0 Communication controller: Intel Corporation Device 319a (rev 03)
+	Subsystem: Hewlett-Packard Company Device 85b6
+	Kernel driver in use: mei_me
+	Kernel modules: mei_me
+00:13.0 PCI bridge: Intel Corporation Device 31da (rev f3)
+	Kernel driver in use: pcieport
+00:15.0 USB controller: Intel Corporation Device 31a8 (rev 03)
+	Subsystem: Hewlett-Packard Company Device 85b6
+	Kernel driver in use: xhci_hcd
+00:17.0 Signal processing controller: Intel Corporation Device 31b4 (rev 03)
+	Subsystem: Hewlett-Packard Company Device 85b6
+	Kernel driver in use: intel-lpss
+	Kernel modules: intel_lpss_pci
+00:17.1 Signal processing controller: Intel Corporation Device 31b6 (rev 03)
+	Subsystem: Hewlett-Packard Company Device 85b6
+	Kernel driver in use: intel-lpss
+	Kernel modules: intel_lpss_pci
+00:1c.0 SD Host controller: Intel Corporation Device 31cc (rev 03)
+	Subsystem: Hewlett-Packard Company Device 85b6
+	Kernel driver in use: sdhci-pci
+	Kernel modules: sdhci_pci
+00:1f.0 ISA bridge: Intel Corporation Device 31e8 (rev 03)
+	Subsystem: Hewlett-Packard Company Device 85b6
+00:1f.1 SMBus: Intel Corporation Device 31d4 (rev 03)
+	Subsystem: Hewlett-Packard Company Device 85b6
+	Kernel modules: i2c_i801
+01:00.0 Network controller: Realtek Semiconductor Co., Ltd. RTL8821CE 802.11ac PCIe Wireless Network Adapter
+	Subsystem: Hewlett-Packard Company RTL8821CE 802.11ac PCIe Wireless Network Adapter
