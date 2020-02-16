@@ -1,0 +1,16 @@
+URxvt*font: xft:Hack:size=10
+
+Xft.dpi:        96
+Xft.antialias:  true
+Xft.rgba:       rgb
+Xft.hinting:    true
+Xft.hintstyle:  hintslight
+Xft.autohint:   false
+Xft.lcdfilter:  lcddefault
+
+URxvt.scrollBar: false
+URxvt.scrollBar_right: false
+URxvt.scrollBar_floating: false
+URxvt.scrollstyle: rxvt
+
+URxvt*background: #FFFF99
