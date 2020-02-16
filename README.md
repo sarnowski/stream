@@ -58,6 +58,23 @@ Checkout the repository:
 
 ## Hints
 
+### rtl8821ce
+
+The wifi chip is not available in any official repository. Luckily, a volunteer maintains a driver which is forked here.
+
+Install:
+
+```
+# cd rtl8821ce/
+# make
+# make install
+# modprobe 8821ce
+```
+
+Update driver:
+
+    $ git subtree pull --prefix rtl8821ce/ https://github.com/tomaspinho/rtl8821ce.git master --squash
+
 ### wpa_supplicant.conf
 
 To connect to a wifi, configure a `wpa_supplicant.conf`. For obvious reasons it is not included, a template is added here.
