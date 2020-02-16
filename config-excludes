@@ -1,0 +1,6 @@
+- /etc/shadow
+- /etc/shadow-
+- /etc/gshadow
+- /etc/gshadow-
+- /root
+- /lost+found
