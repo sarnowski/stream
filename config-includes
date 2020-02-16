@@ -10,6 +10,8 @@
 + /etc/hosts
 + /etc/laptop-mode/***
 + /etc/locale.gen
+- /etc/portage/make.profile
++ /etc/portage/***
 + /etc/X11
 + /etc/X11/xorg.conf.d/***
 + /home
