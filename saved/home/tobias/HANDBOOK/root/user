@@ -1,3 +1,23 @@
-# genkernel initramfs
+# update system
 
+emerge --sync
+emerge -auDU --keep-going --with-bdeps=y @world
+emerge --ask --update --newuse --deep @world
+emerge --ask --depclean
+
+# upgrade kernel
+
+cp ../linux-..../.config .
+make syncconfig
+make modules_install
+make install
 genkernel --luks --lvm --no-ramdisk-modules --install initramfs
+grub-mkconfig -o /boot/grub/grub.cfg
+
+reboot
+
+cd /usr/src/rtl8821ce
+make clean
+make
+make install
+modprobe 8821ce

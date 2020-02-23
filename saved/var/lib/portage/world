@@ -3,8 +3,9 @@ app-editors/vim
 app-laptop/laptop-mode-tools
 app-portage/gentoolkit
 app-shells/zsh
-dev-java/openjdk-bin
+dev-java/openjdk
 dev-vcs/git
+games-rpg/manaplus
 games-strategy/freeciv
 media-sound/alsa-utils
 media-sound/pavucontrol
@@ -14,6 +15,7 @@ net-analyzer/traceroute
 net-firewall/ufw
 net-misc/dhcpcd
 net-misc/netifrc
+net-vpn/i2pd
 net-wireless/blueman
 net-wireless/wpa_supplicant
 sys-apps/pciutils
@@ -24,6 +26,7 @@ sys-fs/dosfstools
 sys-kernel/genkernel
 sys-kernel/gentoo-sources
 sys-kernel/linux-firmware
+sys-power/powertop
 sys-power/suspend
 sys-process/cronie
 www-client/firefox
