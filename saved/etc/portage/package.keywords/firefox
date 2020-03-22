@@ -1,3 +1,5 @@
 www-client/firefox
 dev-libs/nss
 dev-libs/nspr
+>=media-libs/libvpx-1.8.2:0=[postproc]
+>=media-libs/libwebp-1.1.0:0=

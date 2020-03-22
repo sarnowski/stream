@@ -21,3 +21,16 @@ make clean
 make
 make install
 modprobe 8821ce
+
+reboot
+
+emerge --ask --depclean
+rm -rf /usr/src/<oldkernel>
+rm -rf /lib/modules/<oldkernel>
+rm /boot/vmlinuz-<oldkernel>
+rm /boot/initramfs-<oldkernel>
+rm /boot/config-<oldkernel>
+rm /boot/System.map-<oldkernel>
+grub-mkconfig -o /boot/grub/grub.cfg
+
+reboot
